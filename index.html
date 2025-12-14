@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poul Mhiripiri - Network Infrastructure Engineer</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2b6cb0;
+            --accent-color: #4299e1;
+            --text-color: #2d3748;
+            --background-color: #f7fafc;
+            --section-bg: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background: var(--section-bg);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin: 1rem 0;
+        }
+
+        .contact-info {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .experience-item {
+            margin-bottom: 2rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+        }
+
+        .job-period {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-item {
+            background: var(--background-color);
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            text-align: center;
+            border: 1px solid var(--accent-color);
+            transition: transform 0.2s;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .project {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--background-color);
+            border-radius: 4px;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            section {
+                padding: 1rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poul Mhiripiri</h1>
+        <h2>Network Infrastructure Engineer</h2>
+        <div class="contact-info">
+            Evesham, United Kingdom, WR11 • 
+            <a href="mailto:pmhiripiri@gmail.com">pmhiripiri@gmail.com</a> • 
+            <a href="tel:+447360125077">+447360125077</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Results-oriented Network Infrastructure Engineer with over 12 years of experience specializing in Cisco devices and Azure networks. Proficient in deploying SD-WAN and VLAN solutions and monitoring network performance using tools like SolarWinds and Sentinel. Committed to enhancing network infrastructure and security, aiming for advanced clearance levels.</p>
+        </section>
+
+        <section>
+            <h2>Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Network Security</div>
+                <div class="skill-item">SD-WAN</div>
+                <div class="skill-item">Cisco Devices</div>
+                <div class="skill-item">AWS Networks</div>
+                <div class="skill-item">Virtualization</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Kubernetes</div>
+                <div class="skill-item">Routing & Switching</div>
+                <div class="skill-item">Fortinet</div>
+                <div class="skill-item">Checkpoint</div>
+                <div class="skill-item">Cisco Firepower</div>
+                <div class="skill-item">Active Directory</div>
+                <div class="skill-item">GPOs</div>
+                <div class="skill-item">Network Monitoring</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Projects</h2>
+            <div class="project">
+                <h3>Dynamic IT Lab Environment</h3>
+                <ul>
+                    <li>Designed and deployed a virtual lab using VMware Workstation Pro 17</li>
+                    <li>Configured Windows Server, Active Directory, IIS, Kali Linux, and FortiGate Firewall</li>
+                    <li>Integrated monitoring tools including PRTG Network Monitor, Uptime Kuma, and WAZUH SIEM</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>AWS-Based Static Website Hosting</h3>
+                <ul>
+                    <li>Built static website using Route53 and Amazon S3</li>
+                    <li>Automated updates using GitHub and AWS CodePipeline</li>
+                    <li>Implemented cloud deployment best practices</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <div class="job-title">Volunteer IT Administrator</div>
+                <div class="job-period">Reformed Church International – UK (January 2024 - Present)</div>
+                <ul>
+                    <li>Administer Office 365 and Microsoft Teams</li>
+                    <li>Manage website security and uptime</li>
+                    <li>Conduct quarterly penetration tests</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Networks and Server Infrastructure Support Manager</div>
+                <div class="job-period">First Capital Bank (Dec 2019 - May 2022)</div>
+                <ul>
+                    <li>Designed and maintained corporate network infrastructure</li>
+                    <li>Implemented software-defined networking solutions</li>
+                    <li>Led vendor selection and contract negotiations</li>
+                    <li>Reduced response time to security incidents by 50%</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Core Network Engineer</div>
+                <div class="job-period">Dandemutande Internet Services (May 2015 - Nov 2018)</div>
+                <ul>
+                    <li>Reduced administrative overhead by 45% through network consolidation</li>
+                    <li>Established peering with NAP Africa, reducing internet capacity by 30%</li>
+                    <li>Led MPLs services implementation across multiple data centres</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education & Certifications</h2>
+            <div class="experience-item">
+                <h3>Bachelor of Science: Computer Science</h3>
+                <p>Midlands State University, 2005</p>
+            </div>
+            <div class="experience-item">
+                <h3>Professional Certifications</h3>
+                <ul>
+                    <li>Advanced AWS Services and Architecture (Ongoing)</li>
+                    <li>Google Cloud Computing Foundations</li>
+                    <li>ITIL v4 Foundation Certification</li>
+                    <li>Cisco Cybersecurity Essentials</li>
+                    <li>Fortinet Certified Fundamentals in Cybersecurity</li>
+                    <li>CCNP Enterprise / CCNA Security (2012-2021)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
